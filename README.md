@@ -1,5 +1,36 @@
 # Test with Actions
 
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) (Google Developer Expert in Cloud & AI)  
+> **Focus:** Production GitHub Actions CI/CD Pipelines for Automated Unit Testing, Coverage Reports & Pull Request Gatekeeping
+
+---
+
+## 🎯 Why I Built Automated CI/CD Testing Workflows with GitHub Actions (Engineering Purpose & Real-World Value)
+
+### 1. ✅ Enforcing Zero-Regression Pull Request Gates
+I configured this repository to demonstrate how automated GitHub Actions workflows run unit tests and coverage checks on every push and pull request before code can merge.
+
+### 2. 📦 Matrix Testing & Artifact Upload
+Shows how to structure `.github/workflows/` YAML pipelines that capture test reports and surface failures directly in PR status checks.
+
+### 3. 🚀 Reproducible DevSecOps Foundation
+Serves as a clean CI testing template for my cloud and AI engineering repositories.
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    A["Developer git push / Pull Request"] --> B["GitHub Actions Workflow Trigger"]
+    B --> C["Provision Runner & Install Dependencies"]
+    C --> D["Execute Automated Test Suite & Coverage"]
+    D -->|Pass| E["Upload Test Artifact & Unlock Merge Gate"]
+    D -->|Fail| F["Block Merge & Annotate PR Diff"]
+```
+
+---
+
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 
 Hey RobinaMirbahar!
@@ -34,3 +65,22 @@ Remember, it's self-paced so feel free to take a break! ☕️
 <div align="center">
   <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/GithubBanner.svg" alt="Robina Mirbahar Banner" width="100%" />
 </div>
+
+<!-- AUTHOR_SIGNATURE_START -->
+---
+
+## 👩‍💻 About the Author
+
+**Robina Mirbahar — Google Cloud & AI Architect**  
+*Google Developer Expert (GDE) in Cloud & AI • Published Author • Multi-Agent Systems & Serverless GPU Builder*
+
+[![GitHub](https://img.shields.io/badge/GitHub-RobinaMirbahar-181717?style=for-the-badge&logo=github)](https://github.com/RobinaMirbahar)
+[![Medium](https://img.shields.io/badge/Medium-@robinamirbahar-000000?style=for-the-badge&logo=medium)](https://medium.com/@robinamirbahar)
+[![DEV.to](https://img.shields.io/badge/DEV.to-robinamirbahar-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/robinamirbahar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Robina_Mirbahar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/robina-mirbahar)
+[![GDE Profile](https://img.shields.io/badge/Google_Developer_Expert-Profile-4285F4?style=for-the-badge&logo=google)](https://g.dev/RobinaMirbahar)
+[![YouTube](https://img.shields.io/badge/YouTube-@RobinaMirbahar-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@RobinaMirbahar)
+[![X](https://img.shields.io/badge/X-@RobinaMirbahar-000000?style=for-the-badge&logo=x)](https://x.com/RobinaMirbahar)
+[![Amazon Author](https://img.shields.io/badge/Amazon_Book-Cloud_Computing_Voyage-FF9900?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0D146249R)
+
+<!-- AUTHOR_SIGNATURE_END -->
