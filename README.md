@@ -1,7 +1,8 @@
 # Test with Actions
 
 > **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
-> **Focus:** Production GitHub Actions CI/CD Pipelines for Automated Unit Testing, Coverage Reports & Pull Request Gatekeeping
+> 📚 **Architecture Track:** Production CI/CD Unit Testing, Coverage Reporting & Pull Request Gatekeeping  
+> **Core Stack:** GitHub Actions CI/CD, Automated Test Runners, Coverage Artifacts, and Branch Protection Checks.
 
 ---
 
